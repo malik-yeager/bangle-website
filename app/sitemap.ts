@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Replace with your actual production URL
-  const baseUrl = 'https://belanche.com'
+  const baseUrl = 'https://belanche.in'
 
   return [
     {

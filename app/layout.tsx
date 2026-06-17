@@ -31,7 +31,7 @@ export const metadata = {
   openGraph: {
     title: 'Belanche – Handmade Thread Bangles',
     description: 'Customized thread bangles crafted with love for weddings, festivals, and special occasions.',
-    url: 'https://belanche.com',
+    url: 'https://belanche.in',
     siteName: 'Belanche',
     images: [
       {

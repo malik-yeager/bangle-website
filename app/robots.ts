@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 
 export default function robots(): MetadataRoute.Robots {
   // Replace with your actual production URL
-  const baseUrl = 'https://belanche.com'
+  const baseUrl = 'https://belanche.in'
 
   return {
     rules: {
