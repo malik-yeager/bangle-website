@@ -68,18 +68,8 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <GoogleTagManager gtmId="GTM-56H37SQH" />
       <body className={`${cormorant.variable} ${jost.variable}`}>
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-56H37SQH"
-            height="0"
-            width="0"
-            style={{ display: 'none', visibility: 'hidden' }}
-          />
-        </noscript>
-        {/* End Google Tag Manager (noscript) */}
+        <GoogleTagManager gtmId="GTM-56H37SQH" />
         {children}
       </body>
     </html>
